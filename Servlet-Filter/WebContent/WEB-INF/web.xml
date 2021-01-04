@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Servlet-Filter</display-name>
+  <servlet>
+    <servlet-name>AsyncHelloServlet</servlet-name>
+    <servlet-class>com.AsyncHelloServlet</servlet-class>
+    <async-supported>true</async-supported>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AsyncHelloServlet</servlet-name>
+    <url-pattern>/AsyncHelloServlet</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>AsyncFilter</filter-name>
+    <filter-class>com.filter.AsyncFilter</filter-class>
+    <async-supported>true</async-supported>
+  </filter>
+  <filter-mapping>
+    <filter-name>AsyncFilter</filter-name>
+    <servlet-name>AsyncHelloServlet</servlet-name>
+  </filter-mapping>
+</web-app>
