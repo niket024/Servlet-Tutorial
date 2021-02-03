@@ -11,13 +11,14 @@ import org.json.JSONObject;
 
 import com.jayway.jsonpath.JsonPath;
 
-public class App {
+public class LegacyRequestConverter {
 	public static void main(String[] args) {
 		JSONArray newReqBody = new JSONArray();
 		JSONObject newRequest = new JSONObject();
 		String legacyRequest = "";
 		try {
 			legacyRequest = new String(Files.readAllBytes(Paths.get("oldRequest.txt")));
+			
 			FileReader mappingFile = new FileReader("mapping.properties");
 			Properties properties = new Properties();
 			properties.load(mappingFile);
@@ -29,7 +30,6 @@ public class App {
 					newRequest.put(key, JsonPath.read(legacyRequest, newRequestTemplate.getString(key)));
 				} else {
 					newRequest.put(key, newRequestTemplate.getString(key));
-
 				}
 			}
 			newReqBody.put(newRequest);
