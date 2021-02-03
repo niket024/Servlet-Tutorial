@@ -22,7 +22,7 @@ public class App {
 			Properties properties = new Properties();
 			properties.load(mappingFile);
 
-			JSONObject newRequestTemplate = new JSONObject(properties.getProperty("request1"));
+			JSONObject newRequestTemplate = new JSONObject(properties.getProperty("orderServiceRequest"));
 			System.out.println(newRequestTemplate.keySet());
 			for (String key : newRequestTemplate.keySet()) {
 				if (newRequestTemplate.getString(key).contains("$")) {

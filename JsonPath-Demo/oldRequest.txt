@@ -2,7 +2,7 @@
    "ApplicationContext":{
       "AppId":"KKLJTFR",
       "AppVD":"ABC",
-      "EonID":"125",
+      "CompanyId":"125",
       "SignOnRacfId":"PWCBFWKQSW"
    },
    "SecurityRequest":[
