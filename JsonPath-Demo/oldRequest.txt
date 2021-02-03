@@ -1,0 +1,19 @@
+{
+   "ApplicationContext":{
+      "AppId":"KKLJTFR",
+      "AppVD":"ABC",
+      "EonID":"125",
+      "SignOnRacfId":"PWCBFWKQSW"
+   },
+   "SecurityRequest":[
+      {
+         "Symbol":"WEDWSX",
+         "Cusip":"",
+         "CDESEC":""
+      }
+   ],
+   "IncludeInResponse":[
+      "GH",
+      "TPMS"
+   ]
+}

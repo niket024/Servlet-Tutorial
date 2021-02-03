@@ -8,5 +8,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/niket.kumar/Downloads/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

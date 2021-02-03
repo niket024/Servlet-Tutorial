@@ -11,6 +11,8 @@ import org.apache.kafka.clients.consumer.KafkaConsumer;
 
 public class Consumer {
 	public static void main(String[] args) {
+		System.out.println("test");
+
 		new Consumer().printMsg();
 	}
 	public void printMsg() {
@@ -18,7 +20,7 @@ public class Consumer {
         properties.put("bootstrap.servers", "localhost:9092");
         properties.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         properties.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
-        properties.put("group.id", "test-group");
+        properties.put("group.id", "test-group1");
 
         KafkaConsumer kafkaConsumer = new KafkaConsumer(properties);
         List topics = new ArrayList();

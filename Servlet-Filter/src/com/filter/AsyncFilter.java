@@ -10,6 +10,7 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
+import com.service.Consumer;
 import com.service.Producer;
 
 public class AsyncFilter implements Filter {
@@ -20,8 +21,8 @@ public class AsyncFilter implements Filter {
 
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
-		System.out.println("Request start Time in milliseconds: "+System.currentTimeMillis());
-		System.out.println("filter start "+Thread.currentThread().getName());
+		System.out.println("Request start Time in milliseconds: " + System.currentTimeMillis());
+		System.out.println("filter start " + Thread.currentThread().getName());
 
 		chain.doFilter(request, response);
 		AsyncContext asyncContext = request.getAsyncContext();
@@ -31,10 +32,12 @@ public class AsyncFilter implements Filter {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			Producer producer = new Producer();
-			producer.sendMessage("I am from filter ");
-			System.out.println("filter done:" +Thread.currentThread().getName());
-
+			while (true) {
+				Producer producer = new Producer();
+				producer.sendMessage("I am from filter ");
+				System.out.println("filter done:" + Thread.currentThread().getName());
+				new Consumer().printMsg();
+			}
 		});
 	}
 
