@@ -22,7 +22,7 @@ public class LegacyXmLReqConverter {
 			jsonReq = XML.toJSONObject(legacyXmlRequest).toString();
 			System.out.println(jsonReq);
 			
-			FileReader mappingFile = new FileReader("mapping.properties");
+			FileReader mappingFile = new FileReader("requestmapping.properties");
 			Properties properties = new Properties();
 			properties.load(mappingFile);
 			

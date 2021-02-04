@@ -17,7 +17,7 @@ public class LegacyJsonReqConverter {
 		try {
 			legacyRequest = new String(Files.readAllBytes(Paths.get("legacyJsonRequest.txt")));
 			
-			FileReader mappingFile = new FileReader("mapping.properties");
+			FileReader mappingFile = new FileReader("requestmapping.properties");
 			Properties properties = new Properties();
 			properties.load(mappingFile);
 

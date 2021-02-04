@@ -1,5 +1,5 @@
 <import name="person">
-    <item>
+    <item id="123">
         <firstName>Emil</firstName>
         <lastName>Example</lastName>
         <addresses>

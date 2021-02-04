@@ -1,0 +1,20 @@
+{
+  "name": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "nickname": "Jenny"
+  },
+  "birth_day": "1990-01-01",
+  "job": Software engineer,
+  "mobile": [
+    {
+      "number": "111111111",
+      "type": "mobile"
+    }
+  ],
+  "favorite_color": true,
+  "groups": [
+    "close-friends",
+    "gym"
+  ]
+}

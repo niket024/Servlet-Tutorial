@@ -15,8 +15,6 @@ public class XmlToJsonConverter {
 			jsonReq = XML.toJSONObject(legacyRequest).toString();
 			Files.write(Paths.get("xmlToJson.txt"), jsonReq.toString().getBytes());
 			System.out.println(jsonReq);
-
-
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
