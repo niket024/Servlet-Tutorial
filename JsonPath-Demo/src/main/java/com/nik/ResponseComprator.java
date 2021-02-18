@@ -11,6 +11,7 @@ import java.util.Properties;
 import java.util.Set;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonArray;
 import com.jayway.jsonpath.JsonPath;
 
 public class ResponseComprator {
@@ -41,7 +42,7 @@ public class ResponseComprator {
 			if (legacyMap.size() > 0) {
 				String resultJson = new Gson().toJson(new ResponseMatcher(legacyMap, newMap, false));
 				System.out.println(resultJson);
-			}else {
+			} else {
 				System.out.println("Response matched");
 			}
 
