@@ -1,0 +1,6 @@
+Send Redirect
+--------------
+Dispatching the request from one servlet to another servlet
+but in different web application
+It is a client side technique.
+Here we can see the url pattern of destination servlet

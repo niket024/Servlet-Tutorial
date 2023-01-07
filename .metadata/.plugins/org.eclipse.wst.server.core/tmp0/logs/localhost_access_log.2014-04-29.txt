@@ -1,0 +1,13 @@
+127.0.0.1 - - [29/Apr/2014:18:34:26 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [29/Apr/2014:18:34:28 +0530] "GET /RequestDispatcher/test.html HTTP/1.1" 304 -
+127.0.0.1 - - [29/Apr/2014:18:34:36 +0530] "GET /RequestDispatcher/test.html HTTP/1.1" 304 -
+127.0.0.1 - - [29/Apr/2014:18:34:36 +0530] "GET /RequestDispatcher/test.html HTTP/1.1" 304 -
+127.0.0.1 - - [29/Apr/2014:18:35:04 +0530] "GET /RequestDispatcher/Servlet1?param1=aaa&param2=bbb HTTP/1.1" 200 126
+127.0.0.1 - - [29/Apr/2014:18:36:55 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [29/Apr/2014:18:37:47 +0530] "GET /RequestDispatcher/Servlet1?param1=bbbb&param2=cccc HTTP/1.1" 200 90
+127.0.0.1 - - [29/Apr/2014:18:46:52 +0530] "GET /SendRedirect/test.html HTTP/1.1" 304 -
+127.0.0.1 - - [29/Apr/2014:18:47:00 +0530] "GET /SendRedirect/Servlet1?param1=aaa&param2=bbbb HTTP/1.1" 302 -
+127.0.0.1 - - [29/Apr/2014:18:47:00 +0530] "GET /SendRedirect/Servlet2 HTTP/1.1" 200 88
+127.0.0.1 - - [29/Apr/2014:18:49:50 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [29/Apr/2014:18:50:19 +0530] "GET /SendRedirect/Servlet1?param1=nhnjn&param2=lkjlkjlk HTTP/1.1" 302 -
+127.0.0.1 - - [29/Apr/2014:18:50:19 +0530] "GET /SendRedirect/Servlet2?param1=nhnjn&param2=lkjlkjlk HTTP/1.1" 200 93

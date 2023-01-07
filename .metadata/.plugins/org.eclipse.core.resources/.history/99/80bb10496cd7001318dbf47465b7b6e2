@@ -1,0 +1,5 @@
+
+<body bgcolor="dddd">
+<a href="nik">call servlet2</a><br>
+<a href="abc">call servlet1</a>
+</body>

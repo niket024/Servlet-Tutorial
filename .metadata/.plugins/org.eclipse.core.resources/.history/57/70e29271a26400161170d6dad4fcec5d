@@ -1,0 +1,14 @@
+Session:
+-------------
+It is a smallest duration of time.
+There are 4 session tracking technique
+------------------------------------------
+1.Hidden form fields
+2.URL re writting
+3.Cookies
+4.HttpSession
+
+Cookies
+-----------
+It is a smallest piece of information which is created by
+server and maintained by browser

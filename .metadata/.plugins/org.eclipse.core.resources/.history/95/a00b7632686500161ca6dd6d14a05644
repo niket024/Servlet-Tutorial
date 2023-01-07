@@ -1,0 +1,13 @@
+Listener
+----------
+It is always working based upon some event.
+Event
+--------------
+It is certain action
+It is of two type
+-----------------
+1.Life cycle event
+	1.
+	2.
+	3.
+2.Attribute management event

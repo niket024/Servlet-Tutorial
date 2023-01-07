@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;initparam/src/initpara/Servlet2.java&apos; to &apos;Servlet3.java&apos;" description="Rename resource &apos;Servlet2.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/initpara/Servlet2.java" name="Servlet3.java" stamp="1389248405127" updateReferences="true"/>
+</session>

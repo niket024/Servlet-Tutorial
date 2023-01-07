@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Listener/src/ReqAttributeMgmt/Servlet1.java&apos; to &apos;Servlet3.java&apos;" description="Rename resource &apos;Servlet1.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ReqAttributeMgmt/Servlet1.java" name="Servlet3.java" stamp="1388986068852" updateReferences="true"/>
+</session>

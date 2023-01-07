@@ -1,0 +1,12 @@
+package lifecyclelistener;
+
+import java.io.PrintWriter;
+
+import javax.servlet.ServletRequestEvent;
+import javax.servlet.ServletRequestListener;
+
+public class RequestLifeCycleListener implements ServletRequestListener
+{
+
+//here run the hello.html
+}

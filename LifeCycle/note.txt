@@ -1,0 +1,28 @@
+Life cycle of Servlet
+-------------------------
+ServletConfig(4)          Servlet(5)         Serializable(0)
+						
+						
+						GenericServlet-AC-(8 methods overrided)
+						
+						
+						HttpServlet(1 method overrided)--service()
+						
+						
+						HelloServlet
+						
+Servlet
+	1.init()
+	2.Service()
+	3.destroy()
+	4.doGet()
+	5.doPost()
+	
+Life cycle Of Servlet
+--------------------
+1.init()-It is executing only one time when first time request is coming
+2.service()-It is executing every time on every user request
+3.destroy()-It is also executing only one time while server is shut down
+
+CGI-common gateway interface
+--------------------------

@@ -1,0 +1,19 @@
+<books>
+	<book id="101">
+		<title>Java Made easy</title>
+		<author>Hero</author>
+	</book>
+
+	<book id="102">
+		<title>Love Made hard</title>
+		<author>Lover</author>
+	</book>
+	<book id="103">
+		<title>c</title>
+		<author>preetham</author>
+	</book>
+	<book id="104">
+		<title>c++</title>
+		<author>shilpa</author>
+	</book>
+</books>

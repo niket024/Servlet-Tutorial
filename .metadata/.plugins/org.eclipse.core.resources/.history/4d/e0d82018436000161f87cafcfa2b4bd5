@@ -1,0 +1,4 @@
+Request Dispatcher
+-----------------------
+When ever we need to delegate or dispatch our request more than
+one servlet then we are using RD.

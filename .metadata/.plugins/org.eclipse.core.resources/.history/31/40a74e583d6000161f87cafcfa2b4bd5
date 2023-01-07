@@ -1,0 +1,5 @@
+Difference between doGet and doPost
+-------------------------------------
+1.In doPost our form data is safe and secure but not in doGet
+2.In doPost data is not visible in urlBar but in doGet
+3.Size of doGet is only 8kb but dopost more than that.

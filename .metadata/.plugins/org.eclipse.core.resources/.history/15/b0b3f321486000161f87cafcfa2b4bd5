@@ -1,0 +1,4 @@
+Send Redirect
+--------------
+Dispatching the request from one servlet to another servlet
+but in different web application

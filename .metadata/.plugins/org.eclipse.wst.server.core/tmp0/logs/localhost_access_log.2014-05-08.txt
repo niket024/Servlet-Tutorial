@@ -1,0 +1,8 @@
+127.0.0.1 - - [08/May/2014:12:22:16 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [08/May/2014:12:22:18 +0530] "GET /UploadServlet/index.html HTTP/1.1" 200 272
+127.0.0.1 - - [08/May/2014:12:23:00 +0530] "POST /UploadServlet/go HTTP/1.1" 200 66
+127.0.0.1 - - [08/May/2014:12:27:44 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [08/May/2014:12:27:46 +0530] "GET /DownloadServlet/index.html HTTP/1.1" 200 346
+127.0.0.1 - - [08/May/2014:12:28:10 +0530] "GET /DownloadServlet/DownloadServlet HTTP/1.1" 200 269338
+127.0.0.1 - - [08/May/2014:12:28:26 +0530] "GET /DownloadServlet/index.html HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2014:12:28:50 +0530] "GET /DownloadServlet/DownloadServlet? HTTP/1.1" 200 269338

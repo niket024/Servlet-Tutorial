@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;XML&apos; to &apos;SAX_XML&apos;" description="Rename resource &apos;XML&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/XML" name="SAX_XML" stamp="1383626403771" updateReferences="true"/>
+</session>

@@ -1,0 +1,9 @@
+Request Dispatcher
+-----------------------
+When ever we need to delegate or dispatch our request more than
+one servlet then we are using RD.
+
+Two method
+------------------
+1.include()
+2.forward()

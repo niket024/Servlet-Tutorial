@@ -1,0 +1,11 @@
+Difference between doGet and doPost
+-------------------------------------
+1.In doPost our form data is safe and secure but not in doGet
+2.In doPost data is not visible in urlBar but in doGet
+3.Size of doGet is only 8kb but doPost more than that.
+4.in doGet html is by default method="get" but in doPost we not
+ we need to change method="post"
+ 5.while posting data to server use doPost and 
+ 	while getting the data from Server use doGet
+ 	
+ 	Ajax

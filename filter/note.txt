@@ -1,0 +1,3 @@
+Filter
+------------
+It is mainly used for pre and post execution of servlet.

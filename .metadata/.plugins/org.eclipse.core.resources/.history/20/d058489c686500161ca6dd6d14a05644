@@ -1,0 +1,23 @@
+Listener
+----------
+It is always working based upon some event.
+Event
+--------------
+It is certain action
+It is of two type
+-----------------
+1.Life cycle event
+	1.ServletRequestListener
+	2.HttpSessionListener
+	3.ServletContextListener
+	under these all listener we have mainly two method
+	1.initialization pupose
+	2.destroying purpose
+2.Attribute management event
+	1.ServletRequestAttributeListener
+	2.HttpSessionAttributeListener
+	3.ServletContextAttributeListener
+	under these all listener we have mainly two method
+	1.attribute added
+	2.attribute replaced
+	3.atrribute removed

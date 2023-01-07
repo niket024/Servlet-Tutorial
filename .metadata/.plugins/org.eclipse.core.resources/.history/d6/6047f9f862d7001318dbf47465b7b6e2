@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="luck">
+        <property name="context-root" value="luck"/>
+        <property name="java-output-path" value="/luck/build/classes"/>
+    </wb-module>
+</project-modules>
